@@ -1,32 +1,12 @@
-
 import preprocessor as p
 import numpy as np 
 import pandas as pd 
 import emoji
-import keras
-from sklearn.model_selection import train_test_split
-import tensorflow as tf
-from keras.models import Sequential
-from keras.layers.recurrent import LSTM, GRU,SimpleRNN
-from keras.layers.core import Dense, Activation, Dropout
-from keras.layers.embeddings import Embedding
-from keras.layers.normalization import BatchNormalization
-from keras.utils import np_utils
-from sklearn import preprocessing, decomposition, model_selection, metrics, pipeline
-from keras.layers import GlobalMaxPooling1D, Conv1D, MaxPooling1D, Flatten, Bidirectional, SpatialDropout1D
-from keras.preprocessing import sequence, text
-from keras.callbacks import EarlyStopping
-from sklearn.preprocessing import LabelEncoder,OneHotEncoder
-import plotly.graph_objects as go
-import plotly.express as px
-from tensorflow.keras.layers import Dense, Input
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.models import Model
-from tensorflow.keras.callbacks import ModelCheckpoint
 import transformers
 from transformers import TFAutoModel, AutoTokenizer
 from tqdm.notebook import tqdm
 from tokenizers import Tokenizer, models, pre_tokenizers, decoders, processors
+from keras.preprocessing import sequence, text
 from tqdm import tqdm
 
 
