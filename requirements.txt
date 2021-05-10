@@ -1,3 +1,4 @@
+python==3.7.10
 tensorflow==2.2.0
 emoji==1.2.0
 Flask==1.1.2
