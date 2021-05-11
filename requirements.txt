@@ -1,13 +1,7 @@
-tensorflow
 emoji==1.2.0
 Flask==1.1.2
-jsonify==0.5
-Keras==2.4.3
-nltk
-numpy
-pandas
+pyforest
 requests
-tokenizers
 transformers
 tweet-preprocessor
 gunicorn
